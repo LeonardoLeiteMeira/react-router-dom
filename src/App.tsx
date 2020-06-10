@@ -26,6 +26,7 @@ function App() {
       </nav>
 
       <main id="main">
+        <h1>Aplication to test react router dom</h1>
         <Switch>
           <Route path="/About" component={AboutPage} />
           <Route path="/Contact" component={ContactPage} />
