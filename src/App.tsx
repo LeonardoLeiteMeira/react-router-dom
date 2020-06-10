@@ -12,7 +12,7 @@ function App() {
 
       <nav>
         <div className="linkNavBar">
-          <Link to="/Home">Home Page </Link>
+          <Link to="/">Home Page </Link>
         </div>
 
         <div className="linkNavBar">
@@ -27,15 +27,11 @@ function App() {
 
       <main id="main">
         <Switch>
-          <Route path="/Home" component={HomePage} />
           <Route path="/About" component={AboutPage} />
           <Route path="/Contact" component={ContactPage} />
+          <Route path="/" component={HomePage} />
         </Switch>
       </main>
-
-      <footer>
-        Footer of the page
-      </footer>
     </div>
   );
 }
